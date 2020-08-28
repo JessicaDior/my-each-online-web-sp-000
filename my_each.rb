@@ -6,7 +6,7 @@ if block_given?
     yield(array[i])
     i = i +1
   end
-  
+
   array
 end
 end
